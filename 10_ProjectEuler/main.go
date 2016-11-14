@@ -47,16 +47,6 @@ func toIntSlice(str string) []int {
 
 }
 
-func productOfNumbers(numbers ...int) int {
-	product := 1
-
-	for _, v := range numbers {
-		product *= v
-	}
-
-	return product
-}
-
 func findLargestProduct(sliceDigits []int, adjDigits int) int {
 	var largestProduct int
 
